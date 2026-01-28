@@ -44,7 +44,6 @@
 # - Repeat step 2 with the other half of the split keyboard.
 # - Flash the actual image for each half of the split keyboard (e.g
 # my_board_left.uf2 to the left half, my_board_right.uf2 to the right half).
-#
 # After completing these steps, pair the halves of the split keyboard
 # together by resetting them at the same time. Most commonly, this is done by
 # grounding the reset pins for each of your keyboard's microcontrollers or
