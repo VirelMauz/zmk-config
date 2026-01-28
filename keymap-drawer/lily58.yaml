@@ -122,5 +122,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
+- p: [27, 28]
+  k: (
 - p: [31, 32]
   k: )
+- p: [40, 39]
+  k: \
+- p: [45, 46]
+  k: /

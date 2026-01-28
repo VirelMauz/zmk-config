@@ -12,12 +12,55 @@
     combos {
         compatible = "zmk,combos";
 
-        a {
+        z {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <27 28>;
+        };
+
+        z1 {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <31 32>;
         };
+
+        ss {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <40 39>;
+        };
+
+        sss {
+            bindings = <&kp SLASH>;
+            key-positions = <45 46>;
+        };
     };
 
+    behaviors {
+        ss_hs_modmorph: ss_hs_modmorph {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SS_HS_MODMORPH";
+            bindings = <&kp M>, <&kp RIGHT_BRACKET>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        kh_hs_tapdance: kh_hs_tapdance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "KH_HS_TAPDANCE";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
+        };
+
+        hrm: hrm {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
+            bindings = <&kp>, <&kp>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
 
