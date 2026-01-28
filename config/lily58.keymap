@@ -60,6 +60,12 @@
             require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
+    out_toggle: out_toggle {
+        compatible = "zmk,output-selector";
+        label = "OUT_TOGGLE";
+        #binding-cells = <0>;
+        toggle = <1>;  // Включаем режим переключения
+        };
     };
 
     keymap {
