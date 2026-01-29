@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - '-'
+  - '['
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -201,7 +201,7 @@ layers:
   - I
   - O
   - P
-  - '-'
+  - '['
   - $$mdi:apple-keyboard-control$$
   - A
   - S
