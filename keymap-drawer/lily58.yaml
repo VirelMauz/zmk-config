@@ -186,3 +186,9 @@ combos:
   k: \
 - p: [45, 46]
   k: /
+- p: [15, 16]
+  k: '&layer_en'
+  l: [SOSI]
+- p: [15, 16]
+  k: '&layer_ru'
+  l: [Bas]
