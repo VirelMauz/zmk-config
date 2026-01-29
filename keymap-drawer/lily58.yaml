@@ -53,13 +53,13 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - SOSI
+  - NUM
   - ␣
   - ⏎
-  - PISOS
+  - sys
   - $$mdi:backspace-outline$$
   - ⌦
-  SOSI:
+  NUM:
   - BT CLR
   - BT 1
   - BT 2
@@ -71,7 +71,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CALC
   - F1
   - F2
   - F3
@@ -118,7 +118,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  PISOS:
+  sys:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -230,10 +230,10 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - SOSI
+  - NUM
   - ␣
   - ⏎
-  - PISOS
+  - sys
   - $$mdi:backspace-outline$$
   - ⌦
 combos:

@@ -196,9 +196,9 @@
             // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            display-name = "SOSI";
+            display-name = "NUM";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &out OUT_TOG     &bt BT_CLR_ALL                    &trans     &trans        &trans        &trans        &trans    &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &out OUT_TOG     &bt BT_CLR_ALL                    &trans     &trans        &trans        &trans        &trans    &kp K_CALC
 &kp F1      &kp F2        &kp F3          &kp UP_ARROW    &kp F5           &kp F6                            &kp F7     &kp N7        &kp N8        &kp N9        &kp F11   &kp F12
 &kp GRAVE   &kp EXCL      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRCNT                         &kp CARET  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0    &kp TILDE
 &trans      &trans        &trans          &trans          &trans           &trans          &trans    &trans  &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RBRC  &kp PIPE
@@ -216,7 +216,7 @@
             // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            display-name = "PISOS";
+            display-name = "sys";
             bindings = <
 &trans        &trans  &trans      &trans       &trans             &trans                     &trans       &trans     &trans     &trans    &trans     &trans
 &kp NUMBER_1  &kp N1  &kp C_NEXT  &kp C_PAUSE  &kp C_VOLUME_UP    &kp N5                     &kp N6       &kp N7     &kp N8     &kp N9    &kp N0     &trans
@@ -242,9 +242,9 @@
         };
 
         layer_4 {
-            display-name = "SOSI";
+            display-name = "NUM";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &out OUT_TOG     &bt BT_CLR_ALL                    &trans     &trans        &trans        &trans        &trans    &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &out OUT_TOG     &bt BT_CLR_ALL                    &trans     &trans        &trans        &trans        &trans    &kp K_CALC
 &kp F1      &kp F2        &kp F3          &kp UP_ARROW    &kp F5           &kp F6                            &kp F7     &kp N7        &kp N8        &kp N9        &kp F11   &kp F12
 &kp GRAVE   &kp EXCL      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRCNT                         &kp CARET  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0    &kp TILDE
 &trans      &trans        &trans          &trans          &trans           &trans          &trans    &trans  &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RBRC  &kp PIPE
@@ -255,7 +255,7 @@
         };
 
         layer_5 {
-            display-name = "PISOS";
+            display-name = "sys";
             bindings = <
 &trans        &trans  &trans      &trans       &trans             &trans                     &trans       &trans     &trans     &trans    &trans     &trans
 &kp NUMBER_1  &kp N1  &kp C_NEXT  &kp C_PAUSE  &kp C_VOLUME_UP    &kp N5                     &kp N6       &kp N7     &kp N8     &kp N9    &kp N0     &trans
