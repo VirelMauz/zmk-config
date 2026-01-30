@@ -314,11 +314,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '>'
-  - ':'
-  - ;
-  - '#'
-  - '|'
+  - '&en GREATER_THAN'
+  - '&en COLON'
+  - '&en SEMICOLON'
+  - '&en HASH'
+  - '&en PIPE'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -326,11 +326,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - <
-  - .
-  - ','
-  - '-'
-  - _
+  - '&en LESS_THAN'
+  - '&en PERIOD'
+  - '&en COMMA'
+  - '&en MINUS'
+  - '&en UNDERSCORE'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -340,11 +340,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '?'
-  - '!'
-  - '@'
-  - '%'
-  - '*'
+  - '&en QUESTION'
+  - '&en EXCLAMATION'
+  - '&en AT_SIGN'
+  - '&en PERCENT'
+  - '&en ASTERISK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
