@@ -63,25 +63,25 @@
         };
 
         z2 {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&en LEFT_BRACKET>;
             key-positions = <27 28>;
             layers = <1 5>;
         };
 
         z3 {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&en RIGHT_BRACKET>;
             key-positions = <31 32>;
             layers = <1 5>;
         };
 
         z4 {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&en LEFT_BRACE>;
             key-positions = <27 28>;
             layers = <2 6>;
         };
 
         z5 {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&en RIGHT_BRACE>;
             key-positions = <31 32>;
             layers = <2 6>;
         };

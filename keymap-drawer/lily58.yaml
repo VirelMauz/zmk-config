@@ -380,14 +380,14 @@ combos:
   k: '&en SLASH'
   l: [RUS]
 - p: [27, 28]
-  k: '['
+  k: '&en LEFT_BRACKET'
   l: [NUM, NUM]
 - p: [31, 32]
-  k: ']'
+  k: '&en RIGHT_BRACKET'
   l: [NUM, NUM]
 - p: [27, 28]
-  k: '{'
+  k: '&en LEFT_BRACE'
   l: [sys, sys]
 - p: [31, 32]
-  k: '}'
+  k: '&en RIGHT_BRACE'
   l: [sys, sys]
