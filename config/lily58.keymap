@@ -23,6 +23,7 @@
         z1 {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <31 32>;
+            layers = <0 4>;
         };
 
         slash_eng {
