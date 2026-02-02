@@ -383,6 +383,7 @@ combos:
   l: [NUM, NUM]
 - p: [31, 32]
   k: ']'
+  l: [NUM, NUM]
 - p: [27, 28]
   k: '{'
   l: [sys, sys]
