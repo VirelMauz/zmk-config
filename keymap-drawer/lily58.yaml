@@ -52,7 +52,7 @@ layers:
   - .
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:apple-keyboard-option$$', h: sticky}
-  - $$mdi:apple-keyboard-command$$
+  - {t: LEFT SHIFT, h: sticky}
   - NUM
   - ␣
   - ⏎
@@ -205,8 +205,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ↹
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - <
   - .
@@ -288,7 +288,7 @@ layers:
   - /
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:apple-keyboard-option$$', h: sticky}
-  - $$mdi:apple-keyboard-command$$
+  - {t: LEFT SHIFT, h: sticky}
   - NUM
   - ␣
   - ⏎
@@ -323,8 +323,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ↹
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - '&en LESS_THAN'
   - '&en PERIOD'
