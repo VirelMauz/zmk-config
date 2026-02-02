@@ -357,6 +357,7 @@ layers:
 combos:
 - p: [27, 28]
   k: (
+  l: [ENG, RUS]
 - p: [31, 32]
   k: )
 - p: [40, 39]
@@ -377,3 +378,14 @@ combos:
 - p: [45, 46]
   k: '&en SLASH'
   l: [RUS]
+- p: [27, 28]
+  k: '['
+  l: [NUM, NUM]
+- p: [31, 32]
+  k: ']'
+- p: [27, 28]
+  k: '{'
+  l: [sys, sys]
+- p: [31, 32]
+  k: '}'
+  l: [sys, sys]
