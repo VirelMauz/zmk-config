@@ -179,8 +179,8 @@ layers:
   - {t: ▽, type: trans}
   eng_znak:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&win4'
+  - '&win3'
   - '&ruen_to_ru'
   - '&ruen_to_en'
   - {t: ▽, type: trans}
@@ -297,10 +297,10 @@ layers:
   - ⌦
   rus_znak:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&win4'
+  - '&win3'
+  - '&ruen_to_ru'
+  - '&ruen_to_en'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
