@@ -125,13 +125,13 @@
         ruen_to_en: ruen_to_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(N8)>; // Ваш хоткей для переключения на английский
+            bindings = <&kp LS(NUMBER_1)>; // Ваш хоткей для переключения на английский
         };
 
         ruen_to_ru: ruen_to_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(N9)>; // Ваш хоткей для переключения на русский
+            bindings = <&kp LS(NUMBER_2)>; // Ваш хоткей для переключения на русский
         };
     };
 
@@ -256,11 +256,11 @@
 
         eng_znak {
             bindings = <
-&trans  &trans  &trans  &trans   &trans           &trans                    &trans            &trans           &trans         &trans       &trans          &trans
-&trans  &trans  &trans  &trans   &trans           &trans                    &kp GREATER_THAN  &kp COLON        &kp SEMICOLON  &kp HASH     &kp PIPE        &trans
-&trans  &trans  &trans  &kp TAB  &kp PRINTSCREEN  &trans                    &kp LESS_THAN     &kp PERIOD       &kp COMMA      &kp MINUS    &kp UNDERSCORE  &trans
-&trans  &trans  &trans  &trans   &trans           &trans  &trans    &trans  &kp QUESTION      &kp EXCLAMATION  &kp AT_SIGN    &kp PERCENT  &kp ASTERISK    &trans
-                        &trans   &trans           &trans  &trans    &trans  &trans            &trans           &trans
+&trans  &trans  &trans  &ruen_to_ru  &ruen_to_en      &trans                    &trans            &trans           &trans         &trans       &trans          &trans
+&trans  &trans  &trans  &trans       &trans           &trans                    &kp GREATER_THAN  &kp COLON        &kp SEMICOLON  &kp HASH     &kp PIPE        &trans
+&trans  &trans  &trans  &kp TAB      &kp PRINTSCREEN  &trans                    &kp LESS_THAN     &kp PERIOD       &kp COMMA      &kp MINUS    &kp UNDERSCORE  &trans
+&trans  &trans  &trans  &trans       &trans           &trans  &trans    &trans  &kp QUESTION      &kp EXCLAMATION  &kp AT_SIGN    &kp PERCENT  &kp ASTERISK    &trans
+                        &trans       &trans           &trans  &trans    &trans  &trans            &trans           &trans
             >;
 
             label = "eng_znak";
