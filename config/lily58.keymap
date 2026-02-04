@@ -125,13 +125,13 @@
         ruen_to_en: ruen_to_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(NUMBER_1)>; // Ваш хоткей для переключения на английский
+            bindings = <&kp LS(LG(NUMBER_1))>; // Ваш хоткей для переключения на английский
         };
 
         ruen_to_ru: ruen_to_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(NUMBER_2)>; // Ваш хоткей для переключения на русский
+            bindings = <&kp LS(LG(NUMBER_2))>; // Ваш хоткей для переключения на русский
         };
     };
 
