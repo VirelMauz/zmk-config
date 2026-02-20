@@ -141,8 +141,8 @@
             #binding-cells = <0>;
             bindings = <&kp LS(LC(N2))>;
             label = "TO_RU";
-            wait-ms = <100>;
-            tap-ms = <100>;
+            wait-ms = <50>;
+            tap-ms = <50>;
         };
 
         to_en: to_en {
@@ -150,8 +150,8 @@
             #binding-cells = <0>;
             bindings = <&kp LS(LC(N1))>;
             label = "TO_EN";
-            wait-ms = <100>;
-            tap-ms = <100>;
+            wait-ms = <50>;
+            tap-ms = <50>;
         };
 
         layer_en: layer_en {
@@ -159,8 +159,8 @@
             #binding-cells = <0>;
             bindings = <&to 0 &to_en>;
             label = "LAYER_EN";
-            wait-ms = <100>;
-            tap-ms = <100>;
+            wait-ms = <50>;
+            tap-ms = <50>;
         };
 
         layer_ru: layer_ru {
@@ -168,8 +168,8 @@
             #binding-cells = <0>;
             bindings = <&to 4 &to_ru>;
             label = "LAYER_RU";
-            tap-ms = <100>;
-            wait-ms = <100>;
+            tap-ms = <50>;
+            wait-ms = <50>;
         };
 
         en: en {
@@ -186,8 +186,8 @@
                 <&to_ru>;
 
             label = "EN";
-            wait-ms = <100>;
-            tap-ms = <100>;
+            wait-ms = <50>;
+            tap-ms = <50>;
         };
 
         win3: win3 {
